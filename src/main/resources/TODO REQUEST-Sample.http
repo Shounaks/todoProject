@@ -1,0 +1,18 @@
+### Heartbeat
+GET http://localhost:8080/heartbeat
+
+###
+GET http://localhost:8080/all
+
+###
+POST http://localhost:8080/add
+Content-Type: application/json
+
+{
+  "title":"Create Notes for Secure Coding",
+  "description":"This Activity is due on 15 AUG"
+}
+
+### Delete the TODO ITEM
+###
+DELETE http://localhost:8080/delete/2
